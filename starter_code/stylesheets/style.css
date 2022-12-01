@@ -8,3 +8,146 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+/* @media (max-width: 768px) { */
+* {
+  width: 100hw;
+  padding: 0;
+  margin: 0px;
+}
+
+body ul {
+  display: none;
+}
+
+body nav {
+  display: flex;
+  flex-direction: row;
+  background-color: #540b51;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body img {
+  width: 30%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+body button {
+  background-color: #540b51;
+  border: none;
+}
+
+body button img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+  padding: 10px 100px 10px 100px;
+}
+
+header p {
+  font-size: 100%;
+}
+
+.intro {
+  color: #ecb12f;
+}
+
+header div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #540b51;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.email {
+  background-color: white;
+  border-radius: 10px;
+  color: #540b51;
+  font-weight: bold;
+  padding: 15px 200px 15px 200px;
+  margin-top: 10px;
+}
+
+.google {
+  display: flex;
+  justify-content: space-between;
+  background-color: #4285f4;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  padding: 10px 200px 10px 90px;
+  margin-top: 10px;
+}
+
+.google img {
+  background-color: white;
+  width: 10%;
+  margin: 0;
+  padding: 0;
+}
+
+header img {
+  width: 100%;
+  margin: 20px 0px 0px 0px;
+}
+
+main {
+  width: 100%;
+}
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #f3eae2;
+
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.imgSection img {
+  width: 60px;
+}
+
+.section div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.section2 img{
+    width: 100%;
+    margin: 0px;
+}
+.section2, .section3, .section4{
+    background-color: #f3eae2;
+    padding: 0px;
+
+}
+
+.section3 img{
+    width: 100%;
+    margin: 0px;
+}
+
+.section4 img{
+    width: 100%;
+    margin: 0px;
+}
+
+/* } */
