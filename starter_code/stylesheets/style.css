@@ -9,7 +9,7 @@ links blue: #2E71A6
 footer links grey: #454245
 */
 
-/* @media (max-width: 768px) { */
+@media (max-width: 768px) {
 * {
   width: 100hw;
   padding: 0;
@@ -150,4 +150,4 @@ main {
     margin: 0px;
 }
 
-/* } */
+}
